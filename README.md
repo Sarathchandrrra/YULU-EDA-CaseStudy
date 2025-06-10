@@ -71,14 +71,16 @@ unzip data/yulu-bikeshare-dataset.zip -d data/
 jupyter notebook YULU-EDA-CaseStudy.ipynb
 ```
 
-4. To keep notebook outputs out of version control, install the `nbstripout` or
-   `pre-commit` hooks:
+4. Enable the git hooks defined in `.pre-commit-config.yaml` so notebook
+   outputs are stripped and formatting checks run automatically:
 
 ```bash
-pip install nbstripout pre-commit
-nbstripout --install
+pip install pre-commit
 pre-commit install
 ```
+
+This configuration uses `nbstripout` under the hood to remove notebook output
+before each commit.
 
 The plots and tables will appear in the notebook's output cells after you run all sections.
 
@@ -103,4 +105,3 @@ sudo apt-get install librsvg2-bin
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
