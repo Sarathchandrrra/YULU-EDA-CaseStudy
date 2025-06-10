@@ -77,3 +77,8 @@ sudo apt-get install librsvg2-bin
 ---
 
 > 👤 By [Sarath Chandra](https://github.com/Sarathchandrrra)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
