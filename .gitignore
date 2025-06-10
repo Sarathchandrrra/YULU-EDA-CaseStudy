@@ -1,0 +1,22 @@
+data/
+*.zip
+*.ipynb_checkpoints/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.env/
+.venv/
+venv/
+env/
+
+# VS Code settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Python egg metadata
+*.egg-info/
