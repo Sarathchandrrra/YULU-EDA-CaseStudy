@@ -18,6 +18,18 @@ Typical fields:
 - **Station / Area**
 - **Ride Duration**
 
+## Data Source
+
+The rides dataset is provided on Kaggle as
+[**Yulu Bike Sharing Data**](https://www.kaggle.com/datasets/ranitsarkar01/yulu-bike-sharing-data).
+A free Kaggle account is required to download the files.
+If direct access becomes unavailable, you can also fetch the same
+archive from our CloudFront mirror:
+
+```bash
+wget https://d3gmkzjp9t9xs.cloudfront.net/yulu-bikeshare-dataset.zip -P data/
+```
+
 #Key Insights
 
 - Most rides occur during weekday peak office hours (8-10 AM, 5-7 PM)
@@ -45,7 +57,8 @@ Typical fields:
 pip install -r requirements.txt
 ```
 
-2. Download the dataset from Yulu's CloudFront distribution:
+2. Download the dataset. The official source is Kaggle and requires
+   login. Alternatively, use the mirrored archive:
 
 ```bash
 wget https://d3gmkzjp9t9xs.cloudfront.net/yulu-bikeshare-dataset.zip -P data/
