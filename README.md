@@ -39,11 +39,26 @@ Typical fields:
 
 ## Setup
 
-Install the Python dependencies using `pip`:
+1. Install the Python dependencies from `requirements.txt`:
 
 ```bash
 pip install -r requirements.txt
 ```
+
+2. Download the dataset from Yulu's CloudFront distribution:
+
+```bash
+wget https://d3gmkzjp9t9xs.cloudfront.net/yulu-bikeshare-dataset.zip -P data/
+unzip data/yulu-bikeshare-dataset.zip -d data/
+```
+
+3. Launch the notebook:
+
+```bash
+jupyter notebook YULU-EDA-CaseStudy.ipynb
+```
+
+The plots and tables will appear in the notebook's output cells after you run all sections.
 
 ### OS-level requirements
 
