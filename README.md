@@ -92,6 +92,18 @@ For exporting plots to PDF you may need the `librsvg2-bin` package (Debian/Ubunt
 sudo apt-get install librsvg2-bin
 ```
 
+### PDF export
+
+To generate a PDF of the notebook itself you can rely on Jupyter's built-in
+export functionality. After running the analysis simply execute:
+
+```bash
+jupyter nbconvert --to pdf YULU-EDA-CaseStudy.ipynb
+```
+
+This replaces the previous `colab2pdf` helper while keeping a straightforward
+way to produce a shareable report.
+
 # Recommendations
 
 - Increase bike availability during morning and evening rush hours
