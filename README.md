@@ -71,6 +71,15 @@ unzip data/yulu-bikeshare-dataset.zip -d data/
 jupyter notebook YULU-EDA-CaseStudy.ipynb
 ```
 
+4. To keep notebook outputs out of version control, install the `nbstripout` or
+   `pre-commit` hooks:
+
+```bash
+pip install nbstripout pre-commit
+nbstripout --install
+pre-commit install
+```
+
 The plots and tables will appear in the notebook's output cells after you run all sections.
 
 ### OS-level requirements
