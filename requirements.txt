@@ -1,6 +1,6 @@
-pandas
-numpy
-seaborn
-matplotlib
-pingouin
-jupyter
+pandas>=1.5
+numpy>=1.23
+seaborn>=0.12
+matplotlib>=3.6
+pingouin>=0.5
+jupyter>=1.0
