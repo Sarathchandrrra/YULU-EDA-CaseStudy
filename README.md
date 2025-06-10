@@ -37,6 +37,22 @@ Typical fields:
 - Seaborn & Matplotlib
 - Jupyter Notebook
 
+## Setup
+
+Install the Python dependencies using `pip`:
+
+```bash
+pip install -r requirements.txt
+```
+
+### OS-level requirements
+
+For exporting plots to PDF you may need the `librsvg2-bin` package (Debian/Ubuntu):
+
+```bash
+sudo apt-get install librsvg2-bin
+```
+
 #Recommendations
 
 - Increase bike availability during morning and evening rush hours
